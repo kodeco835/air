@@ -1,0 +1,53 @@
+{
+  "name": "babel-plugin-react-native-platform",
+  "version": "1.0.0",
+  "description": "Removes unused platforms from the Platform module of react-native",
+  "main": "build/index.js",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expo/expo.git",
+    "directory": "packages/babel-plugin-react-native-platform"
+  },
+  "keywords": [
+    "babel",
+    "babel-preset",
+    "expo",
+    "react-native",
+    "universal"
+  ],
+  "author": "Expo <support@expo.io>",
+  "contributors": [
+    "Evan Bacon <bacon@expo.io> (https://github.com/evanbacon)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/expo/expo/issues"
+  },
+  "homepage": "https://github.com/expo/expo/tree/master/packages/babel-plugin-react-native-platform#readme",
+  "jest": {
+    "preset": "expo-module-scripts/node"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.4"
+  },
+  "devDependencies": {
+    "@types/dedent": "^0.7.0",
+    "@types/jest": "^24.0.16",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "expo-module-scripts": "~1.2.0"
+  }
+}
