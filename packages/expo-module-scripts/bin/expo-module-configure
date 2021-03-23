@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+'use strict';
+
+const childProcess = require('child_process');
+const fs = require('fs');
+const glob = require('glob');
+const path = require('path');
+const process = require('process');
+
+childProcess.spawnSync(path.join(__dirname, 'expo-module-readme'), { stdio: 'inherit' });
+
+const templateFiles = glob.sync(path.join(process.cwd(), '..', 'templates', '*'), { dot: true });
+
+templateFiles.forEach(templateFile => {
+  const targetFile = path.basename(templateFile);
+  if (!fs.existsSync(targetFile) || fs.readFileSync(targetFile).includes('@generated')) {
+    fs.copyFileSync(templateFile, targetFile);
+  }
+});
+
+/*
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+script_dir="$(dirname "$0")"
+
+shopt -s dotglob
+
+"$script_dir/expo-module-readme"
+
+for template_file in "$script_dir"/../templates/*; do
+  output_file="$(basename "$template_file")"
+  if [ ! -f "$output_file" ] || grep --quiet "@generated" "$output_file"; then
+    rsync --checksum "$template_file" "$output_file"
+  fi
+done
+*/
