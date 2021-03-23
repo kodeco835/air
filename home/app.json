@@ -1,0 +1,36 @@
+{
+  expo: {
+    name: 'expo-home',
+    description: '',
+    slug: 'expo-home-dev-1e58aebce77290fdd0608f0ac9a909542d268e45',
+    privacy: 'unlisted',
+    sdkVersion: '35.0.0',
+    version: '35.0.0',
+    orientation: 'portrait',
+    platforms: [
+      'ios',
+      'android',
+    ],
+    primaryColor: '#cccccc',
+    icon: 'https://s3.amazonaws.com/exp-brand-assets/ExponentEmptyManifest_192.png',
+    updates: {
+      checkAutomatically: 'ON_LOAD',
+      fallbackToCacheTimeout: 0,
+    },
+    packagerOpts: {
+      config: 'metro.config.js',
+    },
+    userInterfaceStyle: 'automatic',
+    ios: {
+      supportsTablet: true,
+      bundleIdentifier: 'host.exp.exponent',
+    },
+    android: {
+      package: 'host.exp.exponent',
+    },
+    scheme: 'exp',
+    extra: {
+      amplitudeApiKey: '081e5ec53f869b440b225d5e40ec73f9',
+    },
+  },
+}
