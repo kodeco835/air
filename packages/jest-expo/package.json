@@ -1,0 +1,30 @@
+{
+  "name": "jest-expo",
+  "version": "33.0.2",
+  "license": "MIT",
+  "main": "src",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/expo/jest-expo.git"
+  },
+  "files": [
+    "bin",
+    "src",
+    "jest-preset.js"
+  ],
+  "bin": {
+    "jest": "bin/jest.js"
+  },
+  "dependencies": {
+    "babel-jest": "^24.7.1",
+    "jest": "^24.7.1",
+    "json5": "^2.1.0",
+    "lodash": "^4.5.0",
+    "react-test-renderer": "^16.8.6",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "react": "16.8.3"
+  },
+  "gitHead": "f213c9be2a909dae42a0a27d8aa4b9eac8e97be1"
+}
