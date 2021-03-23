@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B10080DC5EE26CFD1F7A25E3631D1EB /* NSDictionary+EXStructuredHeadersTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 32777E0218619677E57E1FFF004A9384 /* NSDictionary+EXStructuredHeadersTests.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		26203D7895467D5AF735BB2017019626 /* EXStructuredHeadersParserIgnoringParametersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ED3A60859FAC33676D86A53A20B2C8 /* EXStructuredHeadersParserIgnoringParametersTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4CBFD917FB061751704ADCFE1AE3E977 /* EXStructuredHeadersParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 619FC556EC8607112D2F5F2EB3ED0FA8 /* EXStructuredHeadersParser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B9000F27E144F13798EAC4DE0BF3526 /* NSArray+EXStructuredHeadersTests.h in Headers */ = {isa = PBXBuildFile; fileRef = F46954A412539F210F702405D4549AD9 /* NSArray+EXStructuredHeadersTests.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		880C59EF4E949A687A955BAD312C7147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5995AD8F62159E0360D295F0383F2C /* Foundation.framework */; };
+		88AD597F5A6DA77665370C0E7BFEAEA9 /* EXStructuredHeaders-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D6C367A8DEE0D21966102A8C2E21C /* EXStructuredHeaders-dummy.m */; };
+		8952F470FFC10605C3304ED66986A700 /* NSArray+EXStructuredHeadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6119C2088F2198F0FA041C6BBE068926 /* NSArray+EXStructuredHeadersTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9514EAB425F7D8C99B8B5AF779F02B5D /* EXStructuredHeadersParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27400F2843BC9080834CD1C10E5ABA46 /* EXStructuredHeadersParserTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF34855AAC22385EF83AC52DFACB76A2 /* NSDictionary+EXStructuredHeadersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E17CF013F872225CD2EACE4918FFEDFC /* NSDictionary+EXStructuredHeadersTests.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D5E7F7D81C09F3F762CEF403D135AD98 /* EXStructuredHeadersTestFixtures.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CDF628D48F08FB57E37662295C3F3E /* EXStructuredHeadersTestFixtures.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F41DF6AFC73DA864F4149E534B51F954 /* EXStructuredHeadersParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC6215B810D720E69CDF20DAD0F8451 /* EXStructuredHeadersParser.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F8DAB4D531D74983D3FB4B7230575A8E /* EXStructuredHeadersTestFixtures.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E22267789F6C8C31A6AF25D6ADE1670 /* EXStructuredHeadersTestFixtures.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6792AE2B34AB0ED2F4BB223F008C445E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8859C4F6DAE897E3C55D00D765EA60C9 /* UMCore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 153171642F5C5CBC05FD3EF6B23A3F36;
+			remoteInfo = UMCore;
+		};
+		FE5C1EC18456E0925BB75EFD46774923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA76F3C83CB5A3A8ADD0F00B193C03C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 207145D213ADEF7068E8FBAC9EC3FD04;
+			remoteInfo = EXStructuredHeaders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C6F0DFFB0C93547D46B136FB45C2F3 /* EXStructuredHeaders-Unit-Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "EXStructuredHeaders-Unit-Tests"; path = "EXStructuredHeaders-Unit-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B1CF682B2CFB06661CE4CE2AF2AE864 /* EXStructuredHeaders-Unit-Tests-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXStructuredHeaders-Unit-Tests-prefix.pch"; sourceTree = "<group>"; };
+		0BC6215B810D720E69CDF20DAD0F8451 /* EXStructuredHeadersParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXStructuredHeadersParser.m; path = EXStructuredHeaders/EXStructuredHeadersParser.m; sourceTree = "<group>"; };
+		0C817EAC7D4DEF28BBFCEEBF36C76072 /* EXStructuredHeaders.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EXStructuredHeaders.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27400F2843BC9080834CD1C10E5ABA46 /* EXStructuredHeadersParserTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXStructuredHeadersParserTests.m; path = Tests/EXStructuredHeadersParserTests.m; sourceTree = "<group>"; };
+		32777E0218619677E57E1FFF004A9384 /* NSDictionary+EXStructuredHeadersTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+EXStructuredHeadersTests.h"; path = "Tests/NSDictionary+EXStructuredHeadersTests.h"; sourceTree = "<group>"; };
+		3C5995AD8F62159E0360D295F0383F2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6119C2088F2198F0FA041C6BBE068926 /* NSArray+EXStructuredHeadersTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+EXStructuredHeadersTests.m"; path = "Tests/NSArray+EXStructuredHeadersTests.m"; sourceTree = "<group>"; };
+		619FC556EC8607112D2F5F2EB3ED0FA8 /* EXStructuredHeadersParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXStructuredHeadersParser.h; path = EXStructuredHeaders/EXStructuredHeadersParser.h; sourceTree = "<group>"; };
+		6F91A1560835B158C4776A6AD3CE6B20 /* EXStructuredHeaders-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EXStructuredHeaders-prefix.pch"; sourceTree = "<group>"; };
+		7DF75BBF58CF5F31CEA875B0CFEC1406 /* EXStructuredHeaders.unit-tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EXStructuredHeaders.unit-tests.release.xcconfig"; sourceTree = "<group>"; };
+		8859C4F6DAE897E3C55D00D765EA60C9 /* UMCore */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UMCore; path = UMCore.xcodeproj; sourceTree = "<group>"; };
+		8D1D6C367A8DEE0D21966102A8C2E21C /* EXStructuredHeaders-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EXStructuredHeaders-dummy.m"; sourceTree = "<group>"; };
+		9E22267789F6C8C31A6AF25D6ADE1670 /* EXStructuredHeadersTestFixtures.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXStructuredHeadersTestFixtures.m; path = Tests/EXStructuredHeadersTestFixtures.m; sourceTree = "<group>"; };
+		A6CDF628D48F08FB57E37662295C3F3E /* EXStructuredHeadersTestFixtures.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXStructuredHeadersTestFixtures.h; path = Tests/EXStructuredHeadersTestFixtures.h; sourceTree = "<group>"; };
+		AB15479CAD1371D808813146688C938F /* EXStructuredHeaders-Unit-Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EXStructuredHeaders-Unit-Tests-Info.plist"; sourceTree = "<group>"; };
+		C9ED3A60859FAC33676D86A53A20B2C8 /* EXStructuredHeadersParserIgnoringParametersTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXStructuredHeadersParserIgnoringParametersTests.m; path = Tests/EXStructuredHeadersParserIgnoringParametersTests.m; sourceTree = "<group>"; };
+		E17CF013F872225CD2EACE4918FFEDFC /* NSDictionary+EXStructuredHeadersTests.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+EXStructuredHeadersTests.m"; path = "Tests/NSDictionary+EXStructuredHeadersTests.m"; sourceTree = "<group>"; };
+		ECE8AB8702EA6333280EB204EFA2A8EA /* EXStructuredHeaders.unit-tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EXStructuredHeaders.unit-tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F46954A412539F210F702405D4549AD9 /* NSArray+EXStructuredHeadersTests.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+EXStructuredHeadersTests.h"; path = "Tests/NSArray+EXStructuredHeadersTests.h"; sourceTree = "<group>"; };
+		F78FB73465D331AD0F11ECDA45E80B35 /* EXStructuredHeaders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXStructuredHeaders.release.xcconfig; sourceTree = "<group>"; };
+		F9F5D6BB673EE40A496DF2C57F1ADC82 /* EXStructuredHeaders.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EXStructuredHeaders.debug.xcconfig; sourceTree = "<group>"; };
+		FD8652E9A785CE9256EA0FDB91D86A77 /* libEXStructuredHeaders.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEXStructuredHeaders.a; path = libEXStructuredHeaders.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E84B4A991404AC94B5D779981CAD0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880C59EF4E949A687A955BAD312C7147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D9FCB534F8AFE69E86FB826D3685A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222DA7C8668CFEEE1F8684DB34159F3A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C5995AD8F62159E0360D295F0383F2C /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		45B94A5858DFCDCD5EA5EBDCBC138096 = {
+			isa = PBXGroup;
+			children = (
+				B71335352BF1601C043628A5C3C2306D /* Dependencies */,
+				9284C245828715BB03BA4937222E1488 /* EXStructuredHeaders */,
+				D0CFD951B967507433EB1585C0FE449A /* Frameworks */,
+				DDBC1B59459DFFBA9DDD256F12CB696D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9284C245828715BB03BA4937222E1488 /* EXStructuredHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				619FC556EC8607112D2F5F2EB3ED0FA8 /* EXStructuredHeadersParser.h */,
+				0BC6215B810D720E69CDF20DAD0F8451 /* EXStructuredHeadersParser.m */,
+				929F08D8D3D698BD9590FB06BEAD6869 /* Pod */,
+				C97D3C9E82B6F866AE161A565D19F02B /* Support Files */,
+				B3A743FB65C3EA9F5A0FB6CA06668256 /* Tests */,
+			);
+			name = EXStructuredHeaders;
+			path = "../../packages/expo-structured-headers/ios";
+			sourceTree = "<group>";
+		};
+		929F08D8D3D698BD9590FB06BEAD6869 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0C817EAC7D4DEF28BBFCEEBF36C76072 /* EXStructuredHeaders.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3A743FB65C3EA9F5A0FB6CA06668256 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9ED3A60859FAC33676D86A53A20B2C8 /* EXStructuredHeadersParserIgnoringParametersTests.m */,
+				27400F2843BC9080834CD1C10E5ABA46 /* EXStructuredHeadersParserTests.m */,
+				A6CDF628D48F08FB57E37662295C3F3E /* EXStructuredHeadersTestFixtures.h */,
+				9E22267789F6C8C31A6AF25D6ADE1670 /* EXStructuredHeadersTestFixtures.m */,
+				F46954A412539F210F702405D4549AD9 /* NSArray+EXStructuredHeadersTests.h */,
+				6119C2088F2198F0FA041C6BBE068926 /* NSArray+EXStructuredHeadersTests.m */,
+				32777E0218619677E57E1FFF004A9384 /* NSDictionary+EXStructuredHeadersTests.h */,
+				E17CF013F872225CD2EACE4918FFEDFC /* NSDictionary+EXStructuredHeadersTests.m */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		B71335352BF1601C043628A5C3C2306D /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				8859C4F6DAE897E3C55D00D765EA60C9 /* UMCore */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		C97D3C9E82B6F866AE161A565D19F02B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D1D6C367A8DEE0D21966102A8C2E21C /* EXStructuredHeaders-dummy.m */,
+				6F91A1560835B158C4776A6AD3CE6B20 /* EXStructuredHeaders-prefix.pch */,
+				AB15479CAD1371D808813146688C938F /* EXStructuredHeaders-Unit-Tests-Info.plist */,
+				0B1CF682B2CFB06661CE4CE2AF2AE864 /* EXStructuredHeaders-Unit-Tests-prefix.pch */,
+				F9F5D6BB673EE40A496DF2C57F1ADC82 /* EXStructuredHeaders.debug.xcconfig */,
+				F78FB73465D331AD0F11ECDA45E80B35 /* EXStructuredHeaders.release.xcconfig */,
+				ECE8AB8702EA6333280EB204EFA2A8EA /* EXStructuredHeaders.unit-tests.debug.xcconfig */,
+				7DF75BBF58CF5F31CEA875B0CFEC1406 /* EXStructuredHeaders.unit-tests.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../ios/Pods/Target Support Files/EXStructuredHeaders";
+			sourceTree = "<group>";
+		};
+		D0CFD951B967507433EB1585C0FE449A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222DA7C8668CFEEE1F8684DB34159F3A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDBC1B59459DFFBA9DDD256F12CB696D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C6F0DFFB0C93547D46B136FB45C2F3 /* EXStructuredHeaders-Unit-Tests */,
+				FD8652E9A785CE9256EA0FDB91D86A77 /* libEXStructuredHeaders.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E6E9F73B72919D0E86AD2A9C2A13DB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CBFD917FB061751704ADCFE1AE3E977 /* EXStructuredHeadersParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16FA08184F7DB56C93CC6B7C16DCB71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E7F7D81C09F3F762CEF403D135AD98 /* EXStructuredHeadersTestFixtures.h in Headers */,
+				7B9000F27E144F13798EAC4DE0BF3526 /* NSArray+EXStructuredHeadersTests.h in Headers */,
+				0B10080DC5EE26CFD1F7A25E3631D1EB /* NSDictionary+EXStructuredHeadersTests.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		207145D213ADEF7068E8FBAC9EC3FD04 /* EXStructuredHeaders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B51A32886EE28BEE8162F15148FE6C /* Build configuration list for PBXNativeTarget "EXStructuredHeaders" */;
+			buildPhases = (
+				4E6E9F73B72919D0E86AD2A9C2A13DB2 /* Headers */,
+				425218F03AD07507B59B960BFACA5018 /* Sources */,
+				B7D9FCB534F8AFE69E86FB826D3685A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67A800572EFD23A0D55F89B152D1609 /* PBXTargetDependency */,
+			);
+			name = EXStructuredHeaders;
+			productName = EXStructuredHeaders;
+			productReference = FD8652E9A785CE9256EA0FDB91D86A77 /* libEXStructuredHeaders.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C40A80FEDF179D7F5E57175FB411ACEA /* EXStructuredHeaders-Unit-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37398623965A52D270E7452B078AF85B /* Build configuration list for PBXNativeTarget "EXStructuredHeaders-Unit-Tests" */;
+			buildPhases = (
+				3533BBEFD3E5F8AFDE3420D070E7F2F0 /* Sources */,
+				4E84B4A991404AC94B5D779981CAD0C7 /* Frameworks */,
+				790234038E50AD2E888FA10F7777EDEA /* Resources */,
+				C16FA08184F7DB56C93CC6B7C16DCB71 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC283A582D843F9E8FBAE32C7BC4FBC5 /* PBXTargetDependency */,
+			);
+			name = "EXStructuredHeaders-Unit-Tests";
+			productName = "EXStructuredHeaders-Unit-Tests";
+			productReference = 04C6F0DFFB0C93547D46B136FB45C2F3 /* EXStructuredHeaders-Unit-Tests */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA76F3C83CB5A3A8ADD0F00B193C03C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 63117F008E933A4AFA99487F703ED3CA /* Build configuration list for PBXProject "EXStructuredHeaders" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45B94A5858DFCDCD5EA5EBDCBC138096;
+			productRefGroup = DDBC1B59459DFFBA9DDD256F12CB696D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 8859C4F6DAE897E3C55D00D765EA60C9 /* UMCore */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				207145D213ADEF7068E8FBAC9EC3FD04 /* EXStructuredHeaders */,
+				C40A80FEDF179D7F5E57175FB411ACEA /* EXStructuredHeaders-Unit-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		790234038E50AD2E888FA10F7777EDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3533BBEFD3E5F8AFDE3420D070E7F2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26203D7895467D5AF735BB2017019626 /* EXStructuredHeadersParserIgnoringParametersTests.m in Sources */,
+				9514EAB425F7D8C99B8B5AF779F02B5D /* EXStructuredHeadersParserTests.m in Sources */,
+				F8DAB4D531D74983D3FB4B7230575A8E /* EXStructuredHeadersTestFixtures.m in Sources */,
+				8952F470FFC10605C3304ED66986A700 /* NSArray+EXStructuredHeadersTests.m in Sources */,
+				AF34855AAC22385EF83AC52DFACB76A2 /* NSDictionary+EXStructuredHeadersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425218F03AD07507B59B960BFACA5018 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88AD597F5A6DA77665370C0E7BFEAEA9 /* EXStructuredHeaders-dummy.m in Sources */,
+				F41DF6AFC73DA864F4149E534B51F954 /* EXStructuredHeadersParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D67A800572EFD23A0D55F89B152D1609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMCore;
+			targetProxy = 6792AE2B34AB0ED2F4BB223F008C445E /* PBXContainerItemProxy */;
+		};
+		EC283A582D843F9E8FBAE32C7BC4FBC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EXStructuredHeaders;
+			target = 207145D213ADEF7068E8FBAC9EC3FD04 /* EXStructuredHeaders */;
+			targetProxy = FE5C1EC18456E0925BB75EFD46774923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06B0B96CB10F2E3221C9824F86D4406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F5D6BB673EE40A496DF2C57F1ADC82 /* EXStructuredHeaders.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXStructuredHeaders/EXStructuredHeaders-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXStructuredHeaders;
+				PRODUCT_NAME = EXStructuredHeaders;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		143A6EF758DCE56D30F92ABE84903C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4076133EA8A2E4DDFA55AFF7F636552E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DF75BBF58CF5F31CEA875B0CFEC1406 /* EXStructuredHeaders.unit-tests.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXStructuredHeaders/EXStructuredHeaders-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EXStructuredHeaders/EXStructuredHeaders-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "EXStructuredHeaders-Unit-Tests";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A75594E4D471C5861F900EB777D83BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		72198AED00339D93AA8F0CA93CFDC69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE8AB8702EA6333280EB204EFA2A8EA /* EXStructuredHeaders.unit-tests.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = YES;
+				CODE_SIGNING_REQUIRED = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXStructuredHeaders/EXStructuredHeaders-Unit-Tests-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EXStructuredHeaders/EXStructuredHeaders-Unit-Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "EXStructuredHeaders-Unit-Tests";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		80A878353B1EC403BB6F70544CBE7E5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F78FB73465D331AD0F11ECDA45E80B35 /* EXStructuredHeaders.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/EXStructuredHeaders/EXStructuredHeaders-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = EXStructuredHeaders;
+				PRODUCT_NAME = EXStructuredHeaders;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37398623965A52D270E7452B078AF85B /* Build configuration list for PBXNativeTarget "EXStructuredHeaders-Unit-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72198AED00339D93AA8F0CA93CFDC69F /* Debug */,
+				4076133EA8A2E4DDFA55AFF7F636552E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63117F008E933A4AFA99487F703ED3CA /* Build configuration list for PBXProject "EXStructuredHeaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143A6EF758DCE56D30F92ABE84903C3E /* Debug */,
+				6A75594E4D471C5861F900EB777D83BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B51A32886EE28BEE8162F15148FE6C /* Build configuration list for PBXNativeTarget "EXStructuredHeaders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06B0B96CB10F2E3221C9824F86D4406E /* Debug */,
+				80A878353B1EC403BB6F70544CBE7E5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA76F3C83CB5A3A8ADD0F00B193C03C3 /* Project object */;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "EXStructuredHeaders",
+  "version": "1.0.0",
+  "summary": "ExpoStructuredHeaders standalone module",
+  "description": "ExpoStructuredHeaders standalone module",
+  "license": "MIT",
+  "authors": "650 Industries, Inc.",
+  "homepage": "https://docs.expo.io/versions/latest/sdk/module-template",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/expo/expo.git"
+  },
+  "dependencies": {
+    "UMCore": [
+
+    ]
+  },
+  "source_files": "EXStructuredHeaders/**/*.{h,m}",
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "Tests/*.{h,m}"
+    }
+  ]
+}
